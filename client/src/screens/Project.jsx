@@ -9,14 +9,14 @@ const Projects = () => {
     }
   ];
   return (
-    <section id="projects" className="bg-gray-900 text-white py-16 px-6 sm:px-12 lg:px-16  dark:bg-white dark:text-black">
+    <section id="projects" className="bg-gray-900 text-white py-16 px-6 sm:px-12 lg:px-16  dark:bg-white dark:text-black ">
         <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-10">
                 My <span className="text-blue-400">Projects</span>
             </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 sm:px-28 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 sm:px-28 gap-10 ">
             {projects.map((project,index) => (
-              <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 px-30 dark:bg-white dark:text-black">
+              <div key={index} className=" bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 px-30 dark:bg-white dark:text-black">
                 <h3 className="text-2xl font-semibold text-blue-400 mb-4">{project.title}
                 </h3>
                 <p className="text-lg mb-4 ">{project.description} </p> 
